@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+body {
+  height: 100vh;
+  background: #2e3440;
+  font-family: "Ubuntu", "cursive", sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  box-shadow: 4px 38px 62px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.btn-1 {
+  background: radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #23a8f2;
+}
+
+.btn-2 {
+  background: radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #40b685;
+}
+
+.btn-3 {
+  background: radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ee6e4b;
+}
+
+.btn-4 {
+  background: radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #6bbae4;
+}
+
+.btn-5 {
+  background: radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgb(3, 3, 3);
+}
+
+.input-box {
+  background: #363f50;
+  box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+textarea {
+  height: 10rem;
+  resize: none;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
