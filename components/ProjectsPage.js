@@ -41,7 +41,7 @@ export default function ProjectsPage() {
 
   return (
     <div className="-sm:absolute w-full h-full">
-      <div className="relative grid grid-cols-3 md:grid-rows-3 -sm:grid-cols-1 -sm:grid-rows-5 -sm:gap-y-48 justify-items-center mx-16 h-full py-4 bg-red-400">
+      <div className="relative grid grid-cols-3 md:grid-rows-3 -sm:grid-cols-1 -sm:grid-rows-5 -sm:gap-y-48 justify-items-center mx-16 h-full py-4">
         {projects.map((project, index) => {
           return (
             <motion.div
