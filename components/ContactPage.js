@@ -27,7 +27,7 @@ export default function ContactPage() {
     const subject = e.target[2].value;
     const message = e.target[3].value;
 
-    fetch("https://formsubmit.co/ajax/sample34@inboxkitten.com", {
+    fetch("https://formsubmit.co/ajax/shubham_jain20@outlook.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
