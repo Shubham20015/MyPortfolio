@@ -77,3 +77,23 @@ textarea {
   background: rgba(0, 0, 0, 0.25);
   color: #fff;
 }
+
+@media screen and (min-width: 639px) {
+  .start {
+    grid-column-start: 3;
+  }
+}
+@media screen and (max-width: 639px) {
+  .grid-2 {
+    grid-row-start: 2;
+  }
+  .grid-3 {
+    grid-row-start: 3;
+  }
+  .grid-4 {
+    grid-row-start: 4;
+  }
+  .grid-5 {
+    grid-row-start: 5;
+  }
+}

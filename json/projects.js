@@ -8,6 +8,7 @@ export const projects = [
     github: "https://github.com/Shubham20015/GitFinder",
     live: "https://shubham20015.github.io/GitFinder/index.html",
     css: "col-start-1 col-end-2 -sm:row-start-1",
+    animate: "rest",
   },
   {
     image: "/images/disney.JPG",
@@ -17,7 +18,8 @@ export const projects = [
     tags: ["React", "Redux", "Firebase", "CSS"],
     github: "https://github.com/Shubham20015/DisneyPlus",
     live: "https://disney-clone-d7818.web.app/",
-    css: "col-start-3 col-end-4 -sm:col-start-1 -sm:col-end-2 -sm:row-start-2",
+    css: "start -sm:col-start-1 grid-2",
+    animate: "rest_out",
   },
   {
     image: "/images/devshowcase.JPG",
@@ -27,7 +29,8 @@ export const projects = [
     tags: ["NextJS", "TailwindCSS", "MongoDB", "Framer motion"],
     github: "https://github.com/Shubham20015/devshowcase",
     live: "https://devshowcase-22.vercel.app/",
-    css: "-sm:col-start-1 -sm:col-end-2 -sm:row-start-5 col-start-2 col-end-3 row-start-2",
+    css: "-sm:col-start-1 grid-3 col-start-2 col-end-3 row-start-2",
+    animate: "rest",
   },
   {
     image: "/images/ipl_analysis.JPG",
@@ -37,7 +40,8 @@ export const projects = [
     tags: ["Jupyter Notebook", "Pandas", "Numpy", "Matplotlib"],
     github: "https://github.com/Shubham20015/Machine-Learning",
     live: "https://jovian.ai/googleboy/ipl-datanalysis",
-    css: "-sm:col-start-1 -sm:col-end-2 -sm:row-start-4 col-start-1 col-end-2 row-start-3",
+    css: "-sm:col-start-1 grid-4 col-start-1 col-end-2 row-start-3",
+    animate: "rest",
   },
   {
     image: "/images/placement.JPG",
@@ -47,6 +51,7 @@ export const projects = [
     tags: ["Jupyter Notebook", "Pandas", "Seaborn", "ML Models"],
     github: "https://github.com/Shubham20015/Machine-Learning",
     live: "https://jovian.ai/googleboy/placement-prediction",
-    css: "col-start-3 col-end-4 row-start-3 -sm:col-start-1 -sm:col-end-2 -sm:row-start-3",
+    css: "start row-start-3 -sm:col-start-1 grid-5",
+    animate: "rest_out",
   },
 ];
